@@ -6,6 +6,10 @@ def transform_data(X_train, y_train, X_test, y_test, X_val, y_val):
   X_test = X_test.astype(np.float32)
   X_val = X_val.astype(np.float32)
 
+  X_train = X_train / 255.0
+  X_test = X_test / 255.0
+  X_val = X_val / 255.0
+
   # Reshape the training data such that we have one image per row
   X_train = np.reshape(X_train, (X_train.shape[0], -1))
   X_test = np.reshape(X_test, (X_test.shape[0], -1))
