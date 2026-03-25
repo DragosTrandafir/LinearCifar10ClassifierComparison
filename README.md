@@ -39,13 +39,15 @@ Train the same model with four different loss functions and compare their behavi
 
 ### 7. Hyperparameter Search & Experiment Tracking (W&B)
 - Grid search over learning rates and weight decay values
-- All runs tracked with [Weights & Biases](https://wandb.ai): training/test loss and accuracy logged per epoch. You can see them here:
-  
-- https://api.wandb.ai/links/dragostrandafir443-babes/cph75228 - 1EXP_cifar10-linear-learning_rates-reg_strengths
-- https://api.wandb.ai/links/dragostrandafir443-babes/v8cx4aod - 1EXP_cifar10-linear-learning_rates_no_reg
-
-
+- All runs tracked with [Weights & Biases](https://wandb.ai): training/test loss and accuracy logged per epoch. 
 - Final summary exported as a `wandb.Table` for side-by-side comparison across all experiments
+
+You can see the wandb reports here:
+  
+- https://api.wandb.ai/links/dragostrandafir443-babes/cph75228 - 1EXP_cifar10-linear-learning_rates-reg_strengths in the notebook
+- https://api.wandb.ai/links/dragostrandafir443-babes/v8cx4aod - 1EXP_cifar10-linear-learning_rates_no_reg in the notebook
+- https://api.wandb.ai/links/dragostrandafir443-babes/g5bk3ti4 - 1EXP_cifar10-linear-loss_functions in the notebook
+- https://api.wandb.ai/links/dragostrandafir443-babes/9u86z6ow - 1EXP_cifar10-linear-label_smoothing in the notebook
 
 ---
 
