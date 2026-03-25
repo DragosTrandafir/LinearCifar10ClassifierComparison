@@ -1,4 +1,4 @@
-# CIFAR-10 Linear Classifier — From Scratch to PyTorch
+# CIFAR-10 Linear Classifier - From Scratch to PyTorch
 
 Builds a complete image classification pipeline on the CIFAR-10 dataset, starting from bare NumPy and graduating to PyTorch, with systematic experiment tracking via Weights & Biases.
 
