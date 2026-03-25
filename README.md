@@ -1,6 +1,6 @@
 # CIFAR-10 Linear Classifier — From Scratch to PyTorch
 
-A university computer vision lab that builds a complete image classification pipeline on the CIFAR-10 dataset, starting from bare NumPy and graduating to PyTorch, with systematic experiment tracking via Weights & Biases.
+Builds a complete image classification pipeline on the CIFAR-10 dataset, starting from bare NumPy and graduating to PyTorch, with systematic experiment tracking via Weights & Biases.
 
 ---
 
@@ -39,7 +39,12 @@ Train the same model with four different loss functions and compare their behavi
 
 ### 7. Hyperparameter Search & Experiment Tracking (W&B)
 - Grid search over learning rates and weight decay values
-- All runs tracked with [Weights & Biases](https://wandb.ai): training/test loss and accuracy logged per epoch
+- All runs tracked with [Weights & Biases](https://wandb.ai): training/test loss and accuracy logged per epoch. You can see them here:
+  
+- https://api.wandb.ai/links/dragostrandafir443-babes/cph75228 - 1EXP_cifar10-linear-learning_rates-reg_strengths
+- https://api.wandb.ai/links/dragostrandafir443-babes/v8cx4aod - 1EXP_cifar10-linear-learning_rates_no_reg
+
+
 - Final summary exported as a `wandb.Table` for side-by-side comparison across all experiments
 
 ---
